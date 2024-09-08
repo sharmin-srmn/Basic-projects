@@ -1,0 +1,44 @@
+<%- include('./common/header.ejs') %>
+    <div class="container-fluid height  bg-dark">
+      <div class="row  ">
+          <!-- SIDEBAR START  -->
+          <div class="col-3 col-md-3  border-end border-danger text-center" >
+            <%- include('./common/sidebar.ejs', {page_name: 'hire'}) %>            
+          </div>
+          <!-- SIDEBAR END  -->
+
+          <!-- MAIN CONTENT START  -->
+          <div class=" col-md-9 pt-5 "> 
+            <div class="formContainer text-center  ">
+              <div>
+                  <div>
+                      <p>drop your first<span> project details</span> today</p>
+                  </div>
+                  <div class="upperForm">
+                      <form>
+                          <div>
+                              <input type="text" name="" id="" required><span >name</span>
+                          </div>
+                          <div>
+                              <input type="text" name="" id="" required ><span>phone</span>
+                          </div>
+                          <div class="text-center">
+                              <input type="text" name="" id="" required><span>Address</span>
+      
+                          </div>
+                          <div>
+                              <input type="submit" value="get started">
+                          </div>
+                      </form>
+                  </div>
+              </div>
+            </div> 
+
+          </div>          
+          <!-- MAIN CONTENT END  -->
+
+        </div>
+      </div>
+      <%- include('./common/footer.ejs') %>
+
+

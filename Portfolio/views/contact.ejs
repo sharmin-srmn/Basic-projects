@@ -1,0 +1,71 @@
+<%- include('./common/header.ejs') %>
+    <div class="container-fluid height bg-dark">
+      <div class="row  ">
+          <!-- SIDEBAR START  -->
+          <div class="col-3 col-md-3  border-end border-danger text-center" >
+            <%- include('./common/sidebar.ejs', {page_name: 'contact'}) %>            
+          </div>
+          <!-- SIDEBAR END  -->
+
+
+
+
+          <!-- MAIN CONTENT START  -->
+          <div class=" col-md-9 pt-5">            
+            <!-- DESCRIPTION START  -->
+            <div class="px-5 pt-5 mx-5">
+              <!-- CONTACT TITLE START -->
+              <div class=" mb-5 ">
+                <h2 class="fw-bold section-title "> Contact</h2>                
+              </div>
+              <!-- CONTACT TITLE END -->
+               <div class="mb-5"></div>
+
+              <!-- CONTACT ICON AND DETAILS SECTION START  -->
+               <div class="row py-5">
+                <div class="col-md-4 text-center">
+
+                  <i class="fa-solid fa-2x fa-location-dot mb-2 "></i>
+                  <p>20 Street Road <br> Dhaka 1203 <br> Bangladesh</p>
+                  
+                </div>
+                <div class="col-md-4 text-center">
+                  <i class="fa-solid fa-2x fa-envelope mb-2 "></i>
+                  <p>abc.@gmail.com <br>xyz.@hotmail.com</p>
+                </div>
+                <div class="col-md-4 text-center" >
+                  <i class="fa-solid fa-2x fa-phone mb-2 "></i>
+                  <p>+009 765 765 <br>+009 765 765 <br>+009 765 765 </p>
+                  
+                </div>
+
+               </div>
+              <!-- CONTACT ICON AND DETAILS SECTION END  -->
+            
+            </div>
+            <!-- DESCRIPTION END  -->
+
+            <!-- SOCIAL ICON START  -->
+             <div class="text-center mt-5 pt-5 ">
+              <a href="#" class="d-inline-block">
+                <i class="fa-brands fa-facebook icon-color mx-1"></i>
+              </a>
+              <a href="#" class="d-inline-block">
+                <i class="fa-brands fa-x-twitter icon-color mx-1"></i>
+              </a>
+              <a href="#" class="d-inline-block">
+                <i class="fa-brands fa-youtube icon-color mx-1"></i>
+              </a>
+              <a href="#" class="d-inline-block">
+                <i class="fa-brands fa-instagram icon-color mx-1"></i>
+              </a>
+             </div>
+
+          </div>          
+          <!-- MAIN CONTENT END  -->
+
+        </div>
+      </div>
+      <%- include('./common/footer.ejs') %>
+
+

@@ -1,0 +1,51 @@
+<%- include('./common/header.ejs') %>
+    <div class="container-fluid height bg-dark">
+      <div class="row  ">
+          <!-- SIDEBAR START  -->
+          <div class="col-3 col-md-3  border-end border-danger text-center" >
+            <%- include('./common/sidebar.ejs', {page_name: 'home'}) %>            
+          </div>
+          <!-- SIDEBAR END  -->
+
+
+
+
+          <!-- MAIN CONTENT START  -->
+          <div class=" col-md-9 pt-5">            
+            <!-- DESCRIPTION START  -->
+             <div class="px-5 pt-5 mx-5">
+              <div class="des-div ">
+                <h2 class="g-font"> Hello,</h2>
+                <div class="">
+                  <p class="">
+                    My name is <span class="text-danger">Sharmin Akhter<span>
+                  </p>
+                  <p class="p-justify">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus, obcaecati consequuntur eligendi culpa fugiat, odio magnam dolorum itaque ea ipsum ipsam libero asperiores expedita, incidunt et soluta eveniet aliquid sint.lore Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium dolorum fugiat, culpa delectus perferendis itaque quo! Aliquid deleniti quibusdam sunt sit animi veniam deserunt, est nostrum ad eos sint vitae! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod hic expedita quaerat eum ad atque itaque, ratione maiores similique facere sapiente deleniti culpa animi qui, error soluta dolor beatae libero.
+                  </p>
+                </div>
+              </div>
+              <!-- BUTTON SET  -->
+               <div class="mt-5">
+                <a href="/hire" class=" d-inline-block">
+                  <button type="button" class="btn btn-danger">Hire me</button>
+                </a>
+                <a href="/contact">
+                  <button type="button" class="btn btn-danger">Contact</button>
+                </a>
+               </div>
+              
+              
+             </div>
+
+
+            <!-- DESCRIPTION END  -->
+          </div>          
+          <!-- MAIN CONTENT END  -->
+        </div>
+
+
+      </div>
+      <%- include('./common/footer.ejs') %>
+
+
